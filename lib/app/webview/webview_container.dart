@@ -21,6 +21,7 @@ class WebViewContainerState extends State<WebViewContainer> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
+        centerTitle: true,
       ),
       body: Column(
         children: [

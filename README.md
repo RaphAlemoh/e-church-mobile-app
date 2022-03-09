@@ -49,6 +49,8 @@ To view the generated coverage report you can use [lcov](https://github.com/linu
 # Generate Coverage Report
 $ genhtml coverage/lcov.info -o coverage/
 
+flutter packages run build_runner build --delete-conflicting-outputs
+
 # Open Coverage Report
 $ open coverage/index.html
 ```

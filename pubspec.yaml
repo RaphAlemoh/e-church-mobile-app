@@ -14,10 +14,12 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: ^0.17.0
+  splash_screen_view: ^3.0.0
   webview_flutter: ^3.0.1
 
 dev_dependencies:
   bloc_test: ^9.0.2
+  build_runner: ^2.1.7
   flutter_test:
     sdk: flutter
   mocktail: ^0.2.0
